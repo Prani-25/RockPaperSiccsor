@@ -1,0 +1,221 @@
+h1{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    color: hsl(217, 100%, 50%);
+    flex-wrap: wrap;
+}
+
+.choices{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+    
+}
+.choices button{
+    margin: 10px;
+    font-size: 5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+}
+
+.choices button:hover{
+    background-color: hsla(0, 1%, 20%, 0.244);
+}
+
+
+#playerDisplay{
+    margin-top: 50px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+#computerDisplay{
+    margin-top: 50px;
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+#resultDisplay{
+    margin-top: 50px;
+    font-size: 7rem;
+    display: flex;
+    justify-content: center;
+}
+.green{
+    color: rgb(74, 231, 74);
+}
+.red{
+    color: red;
+}
+.black{
+    color: black;
+    font-size: 8rem;
+}
+#playerscoreDisplay{
+    color: rgb(205, 216, 206);
+    background-color: rgb(19, 148, 224);
+    border-radius: 10px;
+}
+#computerscoreDisplay{
+    color: rgb(205, 216, 206);
+    background-color: rgb(19, 148, 224);
+    border-radius: 10px;
+}
+#DrawsscoreDisplay{
+    color: rgb(205, 216, 206);
+    background-color: rgb(19, 148, 224);
+    border-radius: 10px;
+}
+#totalClicks{
+    background-color: rgb(170, 170, 170);
+    border-radius: 10px;
+}
+.scoreOutput{
+    font-size: 2.5rem;
+    display: flex;
+    margin: 1px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+@media (max-width:430px) {
+    h1{
+        font-size: 2.5rem;
+        display: flex;
+        justify-content: center;
+        color: hsl(217, 100%, 50%);
+        flex-wrap: wrap;
+    }
+    #resultDisplay{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 4.5rem;
+        display: flex;
+        justify-content: center;
+    }
+    #playerDisplay{
+        margin-top: 20px;
+        font-size: 2.3rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+    #computerDisplay{
+        margin-top: 0px;
+        font-size: 2.3rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+    .choices{
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        
+    }
+    .choices button{
+        margin: 10px;
+        font-size: 3.5rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+    }
+    
+}
+
+
+@media (max-width:380px) {
+    h1{
+        font-size: 2.2rem;
+        display: flex;
+        justify-content: center;
+        color: hsl(217, 100%, 50%);
+        flex-wrap: wrap;
+    }
+    #resultDisplay{
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-size: 4rem;
+        display: flex;
+        justify-content: center;
+    }
+    #playerDisplay{
+        margin-top: 20px;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+    #computerDisplay{
+        margin-top: 0px;
+        font-size: 2rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    
+    }
+    .choices{
+        margin: px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+        
+    }
+    .choices button{
+        margin: 10px;
+        font-size: 3.5rem;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
